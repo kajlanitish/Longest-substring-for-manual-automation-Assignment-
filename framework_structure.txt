@@ -1,0 +1,23 @@
+agrichain_automation/
+│
+├── config/
+│   └── config.properties     # URLs, browser type, timeouts
+│
+├── drivers/
+│   └── chromedriver          # WebDriver executables
+│
+├── pages/
+│   ├── HomePage.py           # Web elements & actions for input page
+│   └── ResultPage.py         # Web elements & actions for result page
+│
+├── tests/
+│   └── test_longest_substring.py  # Test cases
+│
+├── utils/
+│   └── browser_init.py       # Browser setup/teardown
+│
+├── reports/
+│   └── test_report.html      # HTML Reports (if using pytest-html)
+│
+├── requirements.txt
+└── README.md
